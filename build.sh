@@ -8,7 +8,7 @@ fi
 if [ ! -e "libde265-${LIBDE265_VERSION}/libde265/.libs/libde265.so" ]; then
     tar xzf libde265-${LIBDE265_VERSION}.tar.gz
     cd libde265-${LIBDE265_VERSION}
-    emconfigure ./configure --disable-sse --disable-dec265 --disable-sherlock265
+    emconfigure ./configure --disable-sse --disable-dec265 --disable-sherlock265 --host=$(uname -m)-alpine-linux-musl
     emmake make
     cd ..
 fi

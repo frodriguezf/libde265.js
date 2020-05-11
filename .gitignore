@@ -1,2 +1,4 @@
-libde265-*.tar.gz
 libde265-*
+!libde265-*.tar.gz
+lib/*.js
+lib/*.mem
