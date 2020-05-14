@@ -35,7 +35,7 @@ https://strukturag.github.io/libde265.js/.
 
 # Docker
 ```
-docker run -it --name emscripten --rm -v `pwd`:/src trzeci/emscripten:sdk-tag-1.34.1-32bit ./build.sh
+docker run -it --name emscripten --rm -v `pwd`:/src silstechar/emscripten:sdk-tag-1.34.1-32bit ./build.sh
 ```
 
 Copyright (c) 2014 struktur AG

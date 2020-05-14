@@ -2,3 +2,4 @@ libde265-*
 !libde265-*.tar.gz
 lib/*.js
 lib/*.mem
+demo/libde265.min.js
